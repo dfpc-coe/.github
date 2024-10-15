@@ -12,11 +12,11 @@ The vast majority of our work is funded by the taxpayer and is open-sourced to a
 | [Node-TAK](https://github.com/dfpc-coe/node-tak) | Manage TAK Server Connections in NodeJS |
 | [CloudTAK](https://github.com/dfpc-coe/etl) | Cloud Native TAK Client for geospatial data => TAK |
 
-## ETLs
+## CloudTAK Supported ETLs
 
 | Name                                                                      | Notes |
 | ------------------------------------------------------------------------- | ----- |
-| [ETL-ADSBX](https://github.com/dfpc-coe/etl-adsbx)                        | |
+| [ETL-ADSBX](https://github.com/dfpc-coe/etl-adsbx)                        | Pull Aircraft from ADSBExchange|
 | [ETL-InReach](https://github.com/dfpc-coe/etl-inreach)                    | |
 | [ETL-GeoTab](https://github.com/dfpc-coe/etl-geotab)                      | |
 | [ETL-WildWeb](https://github.com/dfpc-coe/etl-wildweb)                    | |
