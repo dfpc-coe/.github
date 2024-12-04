@@ -26,6 +26,7 @@ The vast majority of our work is funded by the taxpayer and is open-sourced to a
 | [ETL-WildWeb](https://github.com/dfpc-coe/etl-wildweb)                    | |
 | [ETL-Strato](https://github.com/dfpc-coe/etl-strato)                      | |
 | [ETL-GeoJSON](https://github.com/dfpc-coe/etl-geojson)                    | |
+| [ETL-GeoRSS](https://github.com/dfpc-coe/etl-georss)                      | |
 | [ETL-ArcGIS](https://github.com/dfpc-coe/etl-arcgis)                      | |
 | [ETL-CalTopo](https://github.com/dfpc-coe/etl-caltopo)                    | |
 | [ETL-Spot](https://github.com/dfpc-coe/etl-spot)                          | |
