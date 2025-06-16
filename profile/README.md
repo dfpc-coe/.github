@@ -1,8 +1,9 @@
 ## Introduction
 
-The [Centre of Excellence for Advanced Technology Aerial Firefighting](https://www.cofiretech.org/) is pioneering the deployment of [TAK](https://tak.gov/) as a Public Safety Tool.
+The [Centre of Excellence for Advanced Technology Aerial Firefighting](https://www.cofiretech.org/) is pioneering the deployment of [TAK](https://tak.gov/) as a Public Safety Tool
+via the [COTAK](https://cotak.gov) service.
 
-The vast majority of our work is funded by the taxpayer and is open-sourced to assist other states in their deployment and rollout of TAK for Public Safety
+The vast majority of our work is funded by the taxpayer and is maintained as open-source to assist other states in their deployment and rollout of TAK for Public Safety
 
 ## Quick Links
 
@@ -20,7 +21,7 @@ The vast majority of our work is funded by the taxpayer and is open-sourced to a
 | Name                                                                      | Notes |
 | ------------------------------------------------------------------------- | ----- |
 | [ETL-ADSBX](https://github.com/dfpc-coe/etl-adsbx)                        | Pull Aircraft from ADSBExchange|
-| [ETL-InReach](https://github.com/dfpc-coe/etl-inreach)                    | |
+| [ETL-InReach](https://github.com/dfpc-coe/etl-inreach)                    | Garmin InReach Devices |
 | [ETL-GeoTab](https://github.com/dfpc-coe/etl-geotab)                      | |
 | [ETL-WildWeb](https://github.com/dfpc-coe/etl-wildweb)                    | |
 | [ETL-Strato](https://github.com/dfpc-coe/etl-strato)                      | |
