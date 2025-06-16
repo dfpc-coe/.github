@@ -16,6 +16,7 @@ The vast majority of our work is funded by the taxpayer and is maintained as ope
 ## CloudTAK Supported ETLs
 
 [ETL-Template](https://github.com/dfpc-coe/etl-template) - ETL Template repo - start here if creating new ETLs
+
 [ETL-Base](https://github.com/dfpc-coe/etl-base) - NodeJS ETL Library that powers ETL Template
 
 | Name                                                                      | Notes |
@@ -26,6 +27,7 @@ The vast majority of our work is funded by the taxpayer and is maintained as ope
 | [ETL-WildWeb](https://github.com/dfpc-coe/etl-wildweb)                    | |
 | [ETL-Strato](https://github.com/dfpc-coe/etl-strato)                      | |
 | [ETL-GeoJSON](https://github.com/dfpc-coe/etl-geojson)                    | |
+| [ETL-GeoRSS](https://github.com/dfpc-coe/etl-georss)                      | |
 | [ETL-ArcGIS](https://github.com/dfpc-coe/etl-arcgis)                      | |
 | [ETL-CalTopo](https://github.com/dfpc-coe/etl-caltopo)                    | |
 | [ETL-Spot](https://github.com/dfpc-coe/etl-spot)                          | |
