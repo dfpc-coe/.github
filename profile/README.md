@@ -13,6 +13,19 @@ The vast majority of our work is funded by the taxpayer and is maintained as ope
 | [Node-TAK](https://github.com/dfpc-coe/node-tak) | Manage TAK Server Connections in NodeJS |
 | [CloudTAK](https://github.com/dfpc-coe/etl) | Cloud Native TAK Client for geospatial data => TAK |
 
+## Port Deconfliction
+
+When deploying TAK Servers and TAK Clients in the same network environment, port conflicts may arise.
+
+| Service         | Default Port |
+| --------------- | ------------ |
+| CloudTAK API    | 5000         |
+| ClodTAK DB      | 5433         |
+| PMTiles API     | 5002         |
+| Events API      | 5003         |
+| DJI Cloud       | 5004         |
+
+
 ## CloudTAK Supported ETLs
 
 [ETL-Template](https://github.com/dfpc-coe/etl-template) - ETL Template repo - start here if creating new ETLs
