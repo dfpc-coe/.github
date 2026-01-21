@@ -1,57 +1,26 @@
-## Introduction
+# Center of Excellence for Advanced Technology Aerial Firefighting
 
-The [Centre of Excellence for Advanced Technology Aerial Firefighting](https://www.cofiretech.org/) is pioneering the deployment of [TAK](https://tak.gov/) as a Public Safety Tool
-via the [COTAK](https://cotak.gov) service.
+The **Center of Excellence (CoE)** drives the evaluation and implementation of innovative technologies for public safety and aerial firefighting. We rigorously test and deploy solutions that bridge the gap between emerging capabilities and the operational needs of first responders.
 
-The vast majority of our work is funded by the taxpayer and is maintained as open-source to assist other states in their deployment and rollout of TAK for Public Safety
+## The COTAK Program
 
-## Quick Links
+**COTAK (Colorado Team Awareness Kit)** is a statewide program created from inital R&D work, delivering the capabilities of the Team Awareness Kit (TAK) to public safety agencies in Colorado. 
 
-| Product | Notes |
-| ------- | ----- |
-| [Node-CoT](https://github.com/dfpc-coe/node-CoT) | GeoJSON <=> CoT Library in NodeJS |
-| [Node-TAK](https://github.com/dfpc-coe/node-tak) | Manage TAK Server Connections in NodeJS |
-| [CloudTAK](https://github.com/dfpc-coe/etl) | Cloud Native TAK Client for geospatial data => TAK |
+Originally developed by the Department of Defense, TAK provides a powerful geospatial platform for situational awareness. COTAK adapts this technology for civilian use, offering a managed, interoperable server infrastructure that enables agencies to share real-time location data, sensor feeds, and tactical information across jurisdictional boundaries.
 
-## Port Deconfliction
+Our mission is to establish a unified Common Operating Picture (COP) accessible to all responders, regardless of agency size or budget.
 
-When deploying TAK Servers and TAK Clients in the same network environment, port conflicts may arise.
+## Open Source Development
 
-| Service         | Default Port |
-| --------------- | ------------ |
-| CloudTAK API    | 5000         |
-| ClodTAK DB      | 5433         |
-| PMTiles API     | 5002         |
-| Events API      | 5003         |
-| DJI Cloud       | 5004         |
+We maintain our core tools and integrations as open-source projects to support the broader TAK community. This allows other states and organizations to leverage our work in deploying their own public safety networks.
+
+### Core Repositories
+
+| Product | Description |
+| ------- | ----------- |
+| [Node-CoT](https://github.com/dfpc-coe/node-CoT) | GeoJSON ↔ Cursor on Target (CoT) transformation library for NodeJS. |
+| [Node-TAK](https://github.com/dfpc-coe/node-tak) | Library for managing TAK Server connections and data streams in NodeJS. |
+| [CloudTAK](https://github.com/dfpc-coe/etl) | Cloud-native client for ingesting geospatial data into the TAK ecosystem. |
 
 
-## CloudTAK Supported ETLs
-
-[ETL-Template](https://github.com/dfpc-coe/etl-template) - ETL Template repo - start here if creating new ETLs
-
-[ETL-Base](https://github.com/dfpc-coe/etl-base) - NodeJS ETL Library that powers ETL Template
-
-| Name                                                                      | Notes | Service Link |
-| ------------------------------------------------------------------------- | ----- | ------------ |
-| [ETL-ADSBX](https://github.com/dfpc-coe/etl-adsbx)                        | Aircraft Locations | [ADSBExchange.com](https://www.adsbexchange.com/) |
-| [ETL-InReach](https://github.com/dfpc-coe/etl-inreach)                    | Satellite Comms | [Garmin.com](https://www.garmin.com/en-US/c/outdoor-recreation/satellite-communicators/) |
-| [ETL-GeoTab](https://github.com/dfpc-coe/etl-geotab)                      | Vehicle Locations | [GeoTab.com](https://www.geotab.com/) |
-| [ETL-WildWeb](https://github.com/dfpc-coe/etl-wildweb)                    | Fire CAD | [WildCAD.net](http://www.wildcad.net/WildCADWeb.asp) |
-| [ETL-Strato](https://github.com/dfpc-coe/etl-strato)                      | | |
-| [ETL-GeoJSON](https://github.com/dfpc-coe/etl-geojson)                    | | |
-| [ETL-GeoRSS](https://github.com/dfpc-coe/etl-georss)                      | | |
-| [ETL-ArcGIS](https://github.com/dfpc-coe/etl-arcgis)                      | | |
-| [ETL-CalTopo](https://github.com/dfpc-coe/etl-caltopo)                    | | |
-| [ETL-Spot](https://github.com/dfpc-coe/etl-spot)                          | | |
-| [ETL-Active911](https://github.com/dfpc-coe/etl-adsbx)                    | | |
-| [ETL-CAIC](https://github.com/dfpc-coe/etl-caic)                          | | |
-| [ETL-DroneSense](https://github.com/dfpc-coe/etl-drone-sense)             | | |
-| [ETL-SkyMira](https://github.com/dfpc-coe/etl-skymira)                    | | |
-| [ETL-COTrip-Plows](https://github.com/dfpc-coe/etl-cotrip-plows)          | | |
-| [ETL-COTrip-Weather](https://github.com/dfpc-coe/etl-cotrip-weather)      | | |
-| [ETL-COTrip-Signs](https://github.com/dfpc-coe/etl-cotrip-signs)          | | |
-| [ETL-COTrip-Incidents](https://github.com/dfpc-coe/etl-cotrip-incidents)  | | |
-| [ETL-COTrip-Cameras](https://github.com/dfpc-coe/etl-cotrip-cameras)      | | |
-| [ETL-Spider-Tracks](https://github.com/dfpc-coe/etl-spider-tracks)        | Pull Aircraft from Spider Tracks | |
 
